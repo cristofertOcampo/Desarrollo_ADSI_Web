@@ -1,0 +1,69 @@
+:root {
+	--azul: #1783db;
+	--fondo: #141414;
+    --blanco: rgb(255, 255, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* HEADER  */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--fondo);
+    height: 80px;
+    border-bottom: 3px solid var(--azul);
+}
+
+.titulo{
+    color: var(--blanco);
+    margin-left: 70px;
+    font-size: 2rem;
+}
+
+span{
+    color: var(--azul);
+    font-size: 1.8rem;
+}
+
+.vinculos a{
+    color: var(--blanco);
+    text-decoration: none;
+    margin: 10px;
+}
+.vinculos .last{
+    margin-right: 70px;
+}
+
+/* BODY */
+
+.body{
+    width: 100%;
+    height: 850px; 
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/Escritorio.jpg);
+    background-size: cover;
+    color: var(--blanco);
+}
+
+.body .cuerpo{
+    padding-top: 350px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.expertos{
+    font-size: 2.7rem;
+}
+
+.text{
+    margin-top: 30px;
+}

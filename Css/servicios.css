@@ -26,46 +26,21 @@
     padding-right: 20px;
     font-size: 1.5rem;
 }
-.inicio{
-    background-image: url(../img/escritorio.jpeg) ;
-    background-size: cover;
-    height:100vh;
-    position: absolute;
-    top: -210px;
-    width:100%;
-    margin: auto;
-    z-index: -99;
-    color: #fff;
-    text-align: center;
-}
-
-.texto_inicio{
-    margin: auto;
-    width: 40%;
-    margin-top: 500px;
-}
-h1{
-
-    color:#fff;
-    font-size:5rem;
-}
 p{
     font-size:1rem;
     color:#fff;
 }
-
 .suscribete{
     background-color: #000;
     width: 100%;
-    position: absolute;
     bottom: 120px;
     height: 11vh;
     display: flex;
 }
 .texto_suscribete{
     line-height:90px;
-    width: 40%;
-    padding-left: 120px;
+    width: 70%;
+    padding-left: 100px;
 }
 .texto_suscribete p{
     font-size: 2rem;
@@ -75,7 +50,7 @@ p{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 button{
     height: 4.5vh;
@@ -100,59 +75,67 @@ button:hover{
     font-size: 1.2rem;
 }
 .herramientas{
-    display: flex;
-    position: absolute;
     bottom: -410px;
-    height: 50vh;
-    width: 100%;
-    background-color: #fff;
+    height: 10px;
+    width: 90%;
+    background-color: rgb(255, 249, 249);
+    padding-left: 150px;
+    direction: column;
 }
-.html{
-    width:30%;
-    padding: 3%;
-    text-align: center;
-}
-.html p{
+.parrafo{
     color: #000;
-    padding-left: 100px;
-    padding-right: 100px;
-    
+    padding: 15px;
 }
-.html img{
-    margin-bottom: 20px;
-}
-.css{
-    width:30%;
-    padding: 3%;
-    text-align: center;
-}
-.css p{
+.parrafo2{
     color: #000;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 15px;
 }
-.css img{
-    margin-bottom: 20px;
+.disenoweb{
+    float: left;
+    width: 65%;
+    height: auto;
+    flex-direction: row;
+    background-color:darkgrey;
 }
-.diseño_grafico{
-    width:30%;
-    padding: 3%;
-    text-align: center;
+.desarrolloweb{
+    float: left;
+    width: 65%;
+    height: auto;
+    flex-direction: row;
+    background-color:darkgrey;
+    margin-top: 50px;
 }
-.diseño_grafico p{
+.hostingweb{
+    float: left;
+    width: 65%;
+    height: auto;
+    flex-direction: row;
+    background-color:darkgrey;
+    margin-top: 50px;
+}
+.precio{
     color: #000;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 15px;
 }
-.diseño_grafico img{
-    margin-bottom: 20px;
+aside{
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-left: 70%;
+    padding-top: 20px;
+}
+.title{
+    color:#000;
+}
+.quehacemos{
+    background-color:darkgrey;
+    width: 70%;
 }
 footer{
     background-color: rgb(0, 127, 255);
     height: 7vh;
     width: 100%;
     position:absolute;
-    bottom: -500px;
+    bottom: -360px;
     margin: auto;
     display: flex;
     justify-content: center;

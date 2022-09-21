@@ -87,7 +87,7 @@ button:hover{
     padding: 15px;
 }
 .parrafo2{
-    color: #000;
+    color: white;
     padding: 15px;
 }
 .disenoweb{
@@ -124,10 +124,10 @@ aside{
     padding-top: 20px;
 }
 .title{
-    color:#000;
+    color:white;
 }
 .quehacemos{
-    background-color:darkgrey;
+    background-color:rgb(53, 66, 74);
     width: 70%;
 }
 footer{

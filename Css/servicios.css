@@ -1,147 +1,467 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-.navegador{
+
+.navegador {
     background-color: black;
-    border-bottom: 5px solid rgb(0,132,255);
+    border-bottom: 5px solid rgb(0, 132, 255);
     height: 10vh;
-    color:#fff;
+    color: #fff;
     font-size: 2.5rem;
     padding: 1px 100px;
     margin: 0 auto;
     line-height: 90px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.web{
-    color: rgb(0,132,255);
+
+.web {
+    color: rgb(0, 132, 255);
 }
-.lista a{
+
+.lista a {
     color: #fff;
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1.5rem;
 }
-p{
-    font-size:1rem;
-    color:#fff;
+
+.inicio {
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: -210px;
+    width: 100%;
+    margin: auto;
+    z-index: -99;
+    color: #fff;
+    text-align: center;
 }
-.suscribete{
+
+.texto_inicio {
+    margin: auto;
+    width: 40%;
+    margin-top: 500px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.suscribete {
     background-color: #000;
     width: 100%;
     bottom: 120px;
     height: 11vh;
     display: flex;
 }
-.texto_suscribete{
-    line-height:90px;
+
+.texto_suscribete {
+    line-height: 90px;
     width: 70%;
-    padding-left: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-.texto_suscribete p{
+
+.texto_suscribete p {
     font-size: 2rem;
 }
-.input_suscribete{
+
+.input_suscribete {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 100px;
 }
-button{
+
+button {
     height: 4.5vh;
     color: #fff;
     background-color: orangered;
     border: none;
-    width: 10%;
+    width: auto;
+    padding: 5px;
     font-size: 1.2rem;
-    border-radius: 5px;
+    border-radius: 1px;
+    cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(255, 38, 0);
 }
-.input_suscribete input[type=text]{
+
+.input_suscribete input[type=text] {
     background-color: #ffff;
     border: 1px solid #000;
     height: 4vh;
     width: 25%;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-right: 10px;
     padding: 2px;
     font-size: 1.2rem;
 }
-.herramientas{
+
+.herramientas {
     bottom: -410px;
     height: 10px;
-    width: 90%;
+    width: 60%;
     background-color: rgb(255, 249, 249);
-    padding-left: 150px;
-    direction: column;
+    padding-left: 200px;
 }
-.parrafo{
-    color: #000;
-    padding: 15px;
-}
-.parrafo2{
-    color: white;
-    padding: 15px;
-}
-.disenoweb{
-    float: left;
-    width: 65%;
-    height: auto;
-    flex-direction: row;
-    background-color:darkgrey;
-}
-.desarrolloweb{
-    float: left;
-    width: 65%;
-    height: auto;
-    flex-direction: row;
-    background-color:darkgrey;
-    margin-top: 50px;
-}
-.hostingweb{
-    float: left;
-    width: 65%;
-    height: auto;
-    flex-direction: row;
-    background-color:darkgrey;
-    margin-top: 50px;
-}
-.precio{
-    color: #000;
-    padding: 15px;
-}
-aside{
-    float: left;
-    color: rgb(255, 255, 255);
-    margin-left: 70%;
-    padding-top: 20px;
-}
-.title{
-    color:white;
-}
-.quehacemos{
-    background-color:rgb(53, 66, 74);
-    width: 70%;
-}
-footer{
+
+footer {
     background-color: rgb(0, 127, 255);
     height: 7vh;
     width: 100%;
-    position:absolute;
-    bottom: -360px;
+    position: absolute;
+    bottom: -130px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff
 }
-footer p{
-    line-height: 150px;
+
+footer p {
     text-align: center;
 }
+
+.parrafo {
+    color: #000;
+}
+
+.parrafotitulo {
+    color: #000;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+.Hola {
+    color: #000;
+}
+
+.Hola2 {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 20px;
+}
+
+.nosotros1 {
+    float: left;
+    width: 65%;
+    height: 10%;
+    flex-direction: row;
+}
+
+.aside {
+    color: rgb(19, 17, 17);
+    margin-left: 70%;
+    width: 47%;
+    padding-left: 50px;
+}
+
+.Hola3 {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 30px;
+}
+
+.section {
+    background-color: rgb(53, 66, 74);
+    width: 90%;
+}
+
+.pm {
+    background-color: rgb(168, 168, 168);
+    color: #000;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.parrafo {
+    padding: 15px;
+}
+
+.titulos {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 25px;
+}
+
+.precio {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.divs {
+    background-color: rgb(221, 221, 221);
+    color: #000;
+    padding: 15px;
+    margin: 8px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .navegador {
+        background-color: black;
+        border-bottom: 5px solid rgb(0, 132, 255);
+        height: auto;
+        color: #fff;
+        font-size: 8px;
+        padding: 1px 100px;
+        margin: 0 auto;
+        line-height: 22px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .texto_suscribete {
+        line-height: 25px;
+        padding: 5px;
+    }
+
+    .texto_suscribete p {
+        font-size: 20px;
+        display: flex;
+        padding: 5px;
+    }
+
+    .contenedor_links {
+        padding-left: 70%;
+    }
+
+    .titu {
+        line-height: 30px;
+        width: 150vh;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .input_suscribete {
+        padding: 5px;
+        width: 80%;
+        padding-left: 70px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 100px;
+        
+    }
+    .suscribete{
+        display: inline-block;
+        justify-content: flex-end;
+        align-items: center;
+        height: auto;
+        padding-bottom: 5px;
+    }
+    button {
+        height: 5.5vh;
+        color: #fff;
+        background-color: orangered;
+        border: none;
+        width: auto;
+        padding: 5px;
+        font-size: 1.2rem;
+        border-radius: 1px;
+        cursor: pointer;
+    }
+    .input_suscribete input[type=text] {
+        background-color: #ffff;
+        border: 1px;
+        height: 4vh;
+        width: 70%;
+        border-radius: 3px;
+        margin-right: 10px;
+        padding: 2px;
+        font-size: 1rem;
+    }
+    .herramientas {
+        height: 10px;
+        width: 75%;
+        background-color: rgb(255, 249, 249);
+        padding-left: 15px;
+    }
+    .divs {
+        width: 100%;
+    }
+    .aside {
+        margin-left: 70%;
+        width: 45%;
+    }
+    .Hola2 {
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        font-size: 15px;
+    }
+    .Hola3 {
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        font-size: 20px;
+    }
+    footer {
+        background-color: rgb(0, 127, 255);
+        height: 7vh;
+        width: 100%;
+        position: absolute;
+        bottom: -670px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff
+    }
+  }
+
+  @media (min-width: 1200px){
+    
+    .inicio{
+        background-image: url(img/fondoinicio.jpeg);
+        background-size: cover;
+        height:100vh;
+        position: absolute;
+        top: -190px;
+        width:100%;
+        margin: auto;
+        z-index: -19;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .texto_inicio{
+        margin: auto;
+        width: 40%;
+        margin-top: 350px;
+    }
+
+    .titulo1{
+        font-size: 60px;
+        align-items: center;
+        padding-top: -100%;
+    }
+    .titulo{
+        font-size: 15px;
+        width:100%;
+        padding-top: -30px;
+    }
+    
+    h1{
+        color:#fff;
+        font-size:5rem;
+    }
+    
+    p{
+        font-size:1rem;
+        color:#fff;
+    }
+    
+    .suscribete{
+        background-color: #000;
+        width: 100%;
+        bottom: 120px;
+        height: 11vh;
+        display: flex;
+    }
+    
+    .texto_suscribete{
+        line-height: 90px;
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .texto_suscribete p{
+        font-size: 2rem;
+    }
+    
+    .input_suscribete{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 100px;
+    }
+    
+    button{
+        height: 4.5vh;
+        color: #fff;
+        background-color: orangered;
+        border: none;
+        width: auto;
+        padding: 5px;
+        font-size: 1.2rem;
+        border-radius: 1px;
+        cursor: pointer;
+    }
+    
+    button:hover{
+        background-color: rgb(255, 38, 0);
+    }
+
+    .aside {
+        width: 28%;
+        padding-left: 1px;
+        padding-right: 10vh;
+    }
+    
+    .input_suscribete input[type=text]{
+        background-color: #ffff;
+        border: 1px solid #000;
+        height: 4vh;
+        width: 40%;
+        border-radius: 3px;
+        margin-right: 10px;
+        padding: 2px;
+        font-size: 1.2rem;
+    }
+    .nosotros1{
+        width: 60%;
+    }
+    
+    .herramientas {
+        height: 10px;
+        width: 90%;
+        background-color: rgb(255, 249, 249);
+        padding-left: 50px;
+        margin: auto;
+    }
+    .parrafotitulo{
+        padding-left: 10px;
+    }
+    footer{
+        background-color: rgb(0, 127, 255);
+        height: 7vh;
+        width: 100%;
+        position:absolute;
+        bottom: -330px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    
+    footer p{
+        text-align: center;
+    }
+  }
